@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8">
+    <meta name="author" content="Benneth Cenita">
+    <meta name="description" content="Personal Online Portfolio">
+    <meta name="keywords" content="Benneth,Cenita,Portfolio,Informatics,Web,Development">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Benneth Cenita</title>
+
+    <link rel="icon" type="image/png" href="img/b-icon.png">
+
+    <!-- Font Awesome -->
+    <script src="https://use.fontawesome.com/c61d09908c.js"></script>
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <nav class="navbar nav fixed-top navbar-toggleable-sm navbar-light">
+        <div id="skip">
+                <a href="#maincontent">Skip to Content</a>
+        </div>
+        <div class="container">
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#myNav" aria-controls="myNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-brand"><img id="logo" src="img/b-icon.png" alt="Benneth's Logo Icon" aria-hidden="true"></div>
+            <div class="collapse navbar-collapse" id="myNav">
+                <div class="navbar-nav ml-auto">
+                    <a class="nav-item nav-link active" href="index.html">about</a>
+                    <a class="nav-item nav-link active" href="projects.html">projects</a>
+                    <a class="nav-item nav-link active" href="resume-ux.pdf">resume</a>
+                </div>
+            </div>  
+        </div>
+    </nav>
+
+    <section id="maincontent" class="container project-info-container px-5 pb-5">
+        <!--<div class="container mb-5 text-center">
+            <img id="first-aid" src="img/huskemergency.png" alt="Husky Emergency Project Image">             
+        </div>-->
+        <h1 class="text-center mb-4">Foodie Fanatic</h1>
+        <hr />
+        <ul>
+            <li><em>Timeline</em>: Jan. 2017 - Mar. 2017</li>
+            <li><em>Role</em>: User Advocate</li>
+            <li><em>Tools</em>: Balsamiq, Photoshop</li>
+            <li><em>Skills</em>: User Research, Persona Creation, Information Architecture, Wireframing, Card Sorting, Taxonomy</li>
+        </ul>
+        <hr />
+        <div class="container my-4">
+            <h2 class="mb-3">Context</h2>
+            <p>
+                In a course focused on User Experience and Information Architecture, myself and a team of 3 others were presented a case study of 
+                Foodie Fanatic - a new specialty cooking and baking store hoping to provide a strong digital and physical store presence across the nation.
+                Foodie Fanatic's goal is to become the one stop shop for all foodies. Below is a list of what they hope to offer to customers:
+            </p>
+            <ol>
+                <li>Products, with the appropriate content and data (e.g. photos, price, description, etc)</li>
+                <li>Instructional articles with accompanying photos</li>
+                <li>Instructional videos</li>
+                <li>Multimedia produced by Foodie Fanatic for public consumption</li>
+                <li>Multimedia submitted by customers in an effort to engage with Foodie Fanaticand its other users</li>
+                <li>Cooking class and local store demos and other events</li>
+                <li>Q and A forum boards</li>
+                <li>Online contests</li>
+            </ol>
+            <p>So pretty much to sum it up: <em>anything and everything that has to do with food.</em></p>
+            <p>As a team, we were tasked to come up with an information architecture proposal for the Foodie Fanatic site so that users are easily able to identify where a specific type of content can be found, locate it, and interact with the site and other users in an intuitive way.</p>
+        </div>
+        <hr />
+        <div id="problem-space" class="container mb-4">
+            <h2 class="mb-3">Current Issues</h2>
+            <p>From Foodie Fanatic's initial user research, they have recieved the following feedback:</p>
+            <ul>
+                <li>“I always have a hard time browsing for things like blenders!”</li>
+                <li>“You have lots of instructional videos and the quality of the ones I have watched are great, but there are so many and they are poorly organized that I usually ignore them.”</li>
+                <li>“There are no "details" on this cooking class page - no price, no dates etc. Then I realized it was because it happened yesterday.”</li>
+                <li>“Why don’t you have recipies using the food you sell?”</li>
+                <li>“After about 10 minutes of searching I usually haven’t found anything. I browse through all of it, and it’s a bunch of crap!”</li>
+            </ul>
+            <p>Thus, we have identified three main issues that we hope to address in our proposed solution:</p>
+            <ul>
+                <li>Users are having a hard time browsing content</li>
+                <li>They are frustrated by the quality of the content and their level of detail in particular</li>
+                <li>Content is not related to the products well</li>
+            </ul>
+        </div>
+        <hr />
+        <div id="design-description" class="container mb-4">
+            <h2 class="mb-3">User Personas</h2>
+            <p>To fully articulate and understand the needs of potential users of the Foodie Fanatic site, we developed three user personas and identified each of their individual information needs.</p>
+            <hr />
+            <h3 class="text-center my-3">Olivia - The Stay At Home Mom</h3>
+            <img class="screenshot my-2" src="img/olivia-persona.png" />            
+            <p><em>Information needs:</em></p>
+            <ol>
+                <li>Only be presented with content that is relevant to what she is looking for</li>
+                <li>Easy access to new and featured recipes to limit wasted time on the site</li>
+                <li>Past viewed content or content that she’s saved before</li>
+                <li>Good instructional video recipes and guides that are informative and easy to follow</li>
+                <li>Make browsing easier, especially for products she’s not familiar with</li>
+            </ol>
+            <hr />
+            <h3 class="text-center my-3">Charlie - The Social Millenial</h3>
+            <img class="screenshot my-2" src="img/charlie-persona.png" />            
+            <p><em>Information needs:</em></p>
+            <ol>
+                <li>Better notification of events so he can plan around his busy schedule</li>
+                <li>Event details that are clear so he’s not misinformed about events</li>
+                <li>How to connect with other Foodie-topia users outside of events</li>
+                <li>Easy, good quality recipes since he doesn’t have much free time to cook</li>
+                <li>Tips and tricks specific to the items and foods he purchases</li>
+            </ol>
+            <hr />
+            <h3 class="text-center my-3">Eric - The Genuine Foodie</h3>
+            <img class="screenshot my-2" src="img/eric-persona.png" />            
+            <p><em>Information needs:</em></p>
+            <ol>
+                <li>Where and how to obtain recipe ingredients</li>
+                <li>Clear recipe descriptions about length and difficulty</li>
+                <li>How to share his own recipes with others</li>
+                <li>Tips and tricks about seasonal ingredients to inspire new recipes</li>
+            </ol>
+            <hr />
+        </div>
+
+        <div id="final-eval" class="container mb-5">
+            <h2 class="mb-3">Content Strategy</h2>
+            <p>Identifying our user needs allowed us to easily come up with a content strategy for our proposed site. We planned to:</p>
+            <ul>
+                <li>Optimize browsing, searching, and filtering for easier access to products and content</li>
+                <li>Strive to create clear and highly-organized instructional videos and articles for foodies at home</li>
+                <li>Provide a platform which serves to connect foodies as a community both physically and digitally</li>
+            </ul>
+            <p>After iterating on feedback from peers and our professor, we came up with the following Sitemap and Taxonomy diagram to aid us in developing our first wireframes.</p>
+            <img class="screenshot" src="img/sitemap.png" />
+            <img class="screenshot" src="img/taxonomy.png"
+        </div>
+    </section>
+
+    <footer class="container-fluid bg-dark text-light">
+        <div class="container text-right pt-5 pb-5">
+            <p>Connect with me</p>
+            <div class="contact-links">
+                <a class="contact-item" href="#"><i class="fa fa-envelope" aria-hidden="false" aria-label="Email Icon Link"></i></a>
+                <a class="contact-item" href="#"><i class="fa fa-phone" aria-hidden="false" aria-label="Phone Icon Link"></i></a>
+                <a class="contact-item" href="#"><i class="fa fa-linkedin-square" aria-hidden="false" aria-label="LinkedIn Icon Link"></i></a>
+                <a class="contact-item" href="#"><i class="fa fa-github-square" aria-hidden="false" aria-label="Github Icon Link"></i></a>
+            </div>    
+        </div>  
+    </footer>
+</body>
