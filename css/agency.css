@@ -85,6 +85,11 @@ hr.red-line {
   width: 100px;
 }
 
+.hr-left {
+  text-align: left;
+  margin-left: 0;
+}
+
 .description-text {
   width: 28em;
   max-width: 100%;
